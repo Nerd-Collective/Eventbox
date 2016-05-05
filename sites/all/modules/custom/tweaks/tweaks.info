@@ -1,0 +1,4 @@
+name = tweaks
+description = eventQ tweaks / snippets
+package = eventQ
+core = 7.x

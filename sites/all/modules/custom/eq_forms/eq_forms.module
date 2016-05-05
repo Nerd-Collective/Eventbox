@@ -1,0 +1,26 @@
+<?php
+ /**
+  * @file eq_forms.module.
+  */
+
+  /**
+  * Implements hook_menu().
+  */
+ function eq_forms_menu() {
+  $items['event/create'] = array(
+    'title' => 'Create Event',
+    'page callback' => 'drupal_get_form',
+    'page arguments' =>  array('eq_forms_create_form'),
+    'access callback' => 'user_is_logged_in',
+    'file' => 'eq_forms.create.inc',
+  );
+  $items['event/edit/%'] = array(
+    'title' => 'Edit Event',
+    'page callback' => 'drupal_get_form',
+    'page arguments' =>  array('eq_forms_create_form', 2),
+    'access callback' => 'user_is_logged_in',
+    'file' => 'eq_forms.create.inc',
+  );
+
+  return $items;
+}

@@ -1,0 +1,13 @@
+// Theme Customizations to Forms/Webforms //
+.form-control {
+  box-shadow: none;
+}
+
+#user-login {
+  #edit-submit {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+}

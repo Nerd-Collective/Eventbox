@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file tweaks.module
+ */
+
+/**
+ * Implements hook_views_pre_render().
+ */
+// function tweaks_views_pre_render(&$view) {
+//   global $user;
+//   dpm($view);
+//   if ($view->name == 'my_events') {
+//     // Add a stub for + event.
+//     foreach ($view->result as $key => $res) {
+//       if ($res->field_field_my_dates_info[0]['raw']['value'] == 1) {
+//         $ew = entity_metadata_wrapper('events', $res->eck_events_field_data_field_profile_my_dates_ref_id);
+//         if (!$ew->field_my_event_dates_reference->field_events_invites_sent->value()) {
+//           unset($view->result[$key]);
+//         }
+//       }
+//     }
+//   }
+// }

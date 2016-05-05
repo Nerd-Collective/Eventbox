@@ -1,0 +1,27 @@
+body {
+  padding-top: 70px;
+}
+
+.event-mode {
+  background-color: #fff;
+}
+
+.page-user-login {
+  .main-container {
+    width: 600px;
+    background-color: $white;
+  }
+}
+
+.btn-plain {
+  color: $eq-grey;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none!important;
+}
+
+.btn {
+  letter-spacing: 1px;
+  font-weight: lighter;
+}

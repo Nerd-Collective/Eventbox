@@ -1,0 +1,4 @@
+name = eq forms
+description = eventQ module for general formzz..
+package = eventQ
+core = 7.x

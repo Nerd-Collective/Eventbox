@@ -1,0 +1,5 @@
+<?php
+require_once 'includes/request_form.inc';
+require_once 'includes/assign_form.inc';
+require_once 'includes/search_form.inc';
+require_once 'includes/feedback_form.inc';

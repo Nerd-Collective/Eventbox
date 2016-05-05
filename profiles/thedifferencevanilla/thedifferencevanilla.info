@@ -1,0 +1,73 @@
+; Packaging information for thedifferencevanilla
+name = "thedifferencevanilla"
+description = "The Difference Vanilla startup"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Development
+dependencies[] = devel
+; dependencies[] = profiler_builder
+; User interface
+dependencies[] = jquery_update
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+
+; ----------
+; Variables
+; ----------
+variables[admin_menu_components][admin_menu.icon] = true
+variables[admin_menu_components][admin_menu.menu] = true
+variables[admin_menu_components][admin_menu.search] = true
+variables[admin_menu_components][admin_menu.users] = true
+variables[admin_menu_components][admin_menu.account] = true
+variables[admin_menu_margin_top] = 1
+variables[admin_menu_position_fixed] = 1
+variables[admin_theme] = 'seven'
+variables[advanced__active_tab] = 'edit-tweaks'
+variables[cache_class_cache_ctools_css] = 'CToolsCssCache'
+variables[date_default_timezone] = 'Australia/Melbourne'
+variables[filter_fallback_format] = 'plain_text'
+variables[node_admin_theme] = '1'
+variables[node_options_page][0] = 'status'
+variables[theme_default] = 'bartik'
+variables[user_pictures] = '1'
+variables[user_picture_dimensions] = '1024x1024'
+variables[user_picture_file_size] = '800'
+variables[user_picture_style] = 'thumbnail'
+variables[user_register] = 2
+

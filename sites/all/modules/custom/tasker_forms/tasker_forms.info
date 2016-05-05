@@ -1,0 +1,4 @@
+name = tweaks
+description = tweaks
+package = The Difference
+core = 7.x

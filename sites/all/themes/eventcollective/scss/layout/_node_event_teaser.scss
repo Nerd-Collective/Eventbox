@@ -1,0 +1,41 @@
+// Node event teaser
+.node-event {
+  transition: all 0.3s;
+  &.node-teaser {
+    margin-top: 30px;
+    height: 150px;
+    @include border-top-radius(5px);
+    background: lighten($eq-dark, 80%);
+  }
+  &#node-add {
+    border: 2px dashed $eq-dark;
+    border-radius: 5px;
+    background: none;
+    opacity: 0.3;
+    .content {
+      span {
+        @include vh-center;
+        color: $eq-dark;
+      }
+    }
+  }
+}
+
+a.node-add-create {
+  &:hover {
+    #node-add {
+      opacity: 0.9;
+    }
+  }
+}
+
+// Meta data in the node event blocks
+.event-meta {
+  background-color: $white;
+  @include border-bottom-radius(5px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  color: $eq-dark;
+  h2 {
+    margin: 0;
+  }
+}
